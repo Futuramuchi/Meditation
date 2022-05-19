@@ -9,7 +9,29 @@ import SwiftUI
 
 struct UserNewsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color(hex: "#253334")
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Text("С возращением, Эмиль!")
+                    .foregroundColor(Color.white)
+                    .font(.title)
+                Text("Каким ты ощущаешь себя сегодня?")
+                    .foregroundColor(Color.gray)
+                
+                ScrollView(.horizontal) {
+                    HStack(spacing: 30) {
+                        Image("Calm")
+                        Image("Anxious")
+                        Image("Focus")
+                        Image("Relax")
+                    }
+                
+                }
+            }
+        }
+    
     }
 }
 
