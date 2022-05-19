@@ -9,7 +9,16 @@ import SwiftUI
 
 struct RegisterView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color(hex: "#253334")
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Text("Окно регистрации")
+                    .foregroundColor(Color.white)
+                    .font(.title)
+            }
+        }
     }
 }
 

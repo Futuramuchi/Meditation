@@ -11,6 +11,14 @@
 		3FE3171D281A68360056D0F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE3171C281A68360056D0F7 /* ContentView.swift */; };
 		3FE3171F281A68370056D0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE3171E281A68370056D0F7 /* Assets.xcassets */; };
 		3FE31722281A68370056D0F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE31721281A68370056D0F7 /* Preview Assets.xcassets */; };
+		3FE3172C281A76AF0056D0F7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE3172B281A76AF0056D0F7 /* LoginView.swift */; };
+		3FE3172E281A7B430056D0F7 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE3172D281A7B430056D0F7 /* RegisterView.swift */; };
+		3FE31730281A84F80056D0F7 /* MainUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE3172F281A84F80056D0F7 /* MainUserView.swift */; };
+		3FE3173A281A90F50056D0F7 /* UserNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE31739281A90F50056D0F7 /* UserNewsView.swift */; };
+		3FE3173C281A91000056D0F7 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE3173B281A91000056D0F7 /* MusicView.swift */; };
+		3FE3173E281A91080056D0F7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE3173D281A91080056D0F7 /* ProfileView.swift */; };
+		3FF91167282413A900E549AD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3FF91166282413A900E549AD /* Alamofire */; };
+		3FF9116A282413D400E549AD /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 3FF91169282413D400E549AD /* SwiftyJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,13 @@
 		3FE3171C281A68360056D0F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FE3171E281A68370056D0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FE31721281A68370056D0F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FE31728281A6E1C0056D0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3FE3172B281A76AF0056D0F7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3FE3172D281A7B430056D0F7 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3FE3172F281A84F80056D0F7 /* MainUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUserView.swift; sourceTree = "<group>"; };
+		3FE31739281A90F50056D0F7 /* UserNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNewsView.swift; sourceTree = "<group>"; };
+		3FE3173B281A91000056D0F7 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		3FE3173D281A91080056D0F7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF9116A282413D400E549AD /* SwiftyJSON in Frameworks */,
+				3FF91167282413A900E549AD /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +56,7 @@
 				3FE31718281A68360056D0F7 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		3FE31718281A68360056D0F7 /* Products */ = {
 			isa = PBXGroup;
@@ -51,8 +69,13 @@
 		3FE31719281A68360056D0F7 /* Meditation */ = {
 			isa = PBXGroup;
 			children = (
+				3FE31738281A90E30056D0F7 /* UserProfile */,
+				3FE31728281A6E1C0056D0F7 /* Info.plist */,
 				3FE3171A281A68360056D0F7 /* MeditationApp.swift */,
 				3FE3171C281A68360056D0F7 /* ContentView.swift */,
+				3FE3172B281A76AF0056D0F7 /* LoginView.swift */,
+				3FE3172D281A7B430056D0F7 /* RegisterView.swift */,
+				3FE3172F281A84F80056D0F7 /* MainUserView.swift */,
 				3FE3171E281A68370056D0F7 /* Assets.xcassets */,
 				3FE31720281A68370056D0F7 /* Preview Content */,
 			);
@@ -65,6 +88,16 @@
 				3FE31721281A68370056D0F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FE31738281A90E30056D0F7 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				3FE31739281A90F50056D0F7 /* UserNewsView.swift */,
+				3FE3173B281A91000056D0F7 /* MusicView.swift */,
+				3FE3173D281A91080056D0F7 /* ProfileView.swift */,
+			);
+			path = UserProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +116,10 @@
 			dependencies = (
 			);
 			name = Meditation;
+			packageProductDependencies = (
+				3FF91166282413A900E549AD /* Alamofire */,
+				3FF91169282413D400E549AD /* SwiftyJSON */,
+			);
 			productName = Meditation;
 			productReference = 3FE31717281A68360056D0F7 /* Meditation.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,10 @@
 				Base,
 			);
 			mainGroup = 3FE3170E281A68360056D0F7;
+			packageReferences = (
+				3FF91165282413A900E549AD /* XCRemoteSwiftPackageReference "alamofire" */,
+				3FF91168282413D400E549AD /* XCRemoteSwiftPackageReference "swiftyJSON" */,
+			);
 			productRefGroup = 3FE31718281A68360056D0F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +178,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE3173E281A91080056D0F7 /* ProfileView.swift in Sources */,
+				3FE3172C281A76AF0056D0F7 /* LoginView.swift in Sources */,
+				3FE3172E281A7B430056D0F7 /* RegisterView.swift in Sources */,
+				3FE3173A281A90F50056D0F7 /* UserNewsView.swift in Sources */,
+				3FE31730281A84F80056D0F7 /* MainUserView.swift in Sources */,
+				3FE3173C281A91000056D0F7 /* MusicView.swift in Sources */,
 				3FE3171D281A68360056D0F7 /* ContentView.swift in Sources */,
 				3FE3171B281A68360056D0F7 /* MeditationApp.swift in Sources */,
 			);
@@ -271,9 +318,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Meditation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meditation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -285,7 +332,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,9 +346,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Meditation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meditation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,7 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +386,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FF91165282413A900E549AD /* XCRemoteSwiftPackageReference "alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/alamofire/alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3FF91168282413D400E549AD /* XCRemoteSwiftPackageReference "swiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/swiftyJSON/swiftyJSON/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FF91166282413A900E549AD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FF91165282413A900E549AD /* XCRemoteSwiftPackageReference "alamofire" */;
+			productName = Alamofire;
+		};
+		3FF91169282413D400E549AD /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FF91168282413D400E549AD /* XCRemoteSwiftPackageReference "swiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3FE3170F281A68360056D0F7 /* Project object */;
 }
